@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapinew", "webapinew\webapinew.csproj", "{6DE1BBC1-BCA8-496D-9295-2DA208883719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{35D3AF6B-1D1C-4E02-8B91-C1EDC473C855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE1BBC1-BCA8-496D-9295-2DA208883719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE1BBC1-BCA8-496D-9295-2DA208883719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE1BBC1-BCA8-496D-9295-2DA208883719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE1BBC1-BCA8-496D-9295-2DA208883719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D3AF6B-1D1C-4E02-8B91-C1EDC473C855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D3AF6B-1D1C-4E02-8B91-C1EDC473C855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D3AF6B-1D1C-4E02-8B91-C1EDC473C855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D3AF6B-1D1C-4E02-8B91-C1EDC473C855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
