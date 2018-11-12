@@ -30,12 +30,11 @@ namespace webapinew.Controllers
 
             return View();
         }
-    public IActionResult obj()
+    public IActionResult Object()
     {
       ViewData["Message"] = "Your api page.";
-      var val = new ValuesController();
-      var obj = val.Get();
-      return View(obj);
+            var obj = new obj();      
+             return View(obj);
     }
 
         public IActionResult Error()

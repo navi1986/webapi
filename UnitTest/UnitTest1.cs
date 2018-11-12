@@ -10,9 +10,8 @@ namespace UnitTest
         [Fact]
         public void Test1()
         {
-      var obj = new HomeController();
-      var res = new ValuesController();
-      res.Get();
+      var obj = new HomeController();    
+    
       Assert.Contains("navi", "navi");
 
         }
