@@ -1,7 +1,7 @@
 ﻿using System;
 namespace webapinew.Models
 {
-  public class obj
+    public class obj
   {
 
     public string RequestId { get; set; }
