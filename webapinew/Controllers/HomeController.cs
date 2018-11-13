@@ -33,9 +33,21 @@ namespace webapinew.Controllers
     public IActionResult Object()
     {
       ViewData["Message"] = "Your api page.";
-            var obj = new obj();      
-             return View(obj);
+            var obje = new obj();      
+             return View(obje);
     }
+
+        public IActionResult objectView(obj objec)
+        {
+
+            var oobj = objec;
+
+            return View(oobj);
+
+
+
+        }
+
 
         public IActionResult Error()
         {
